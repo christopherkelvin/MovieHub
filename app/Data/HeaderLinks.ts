@@ -1,5 +1,6 @@
 export const headlinks = [
-  { to: "/", label: "Home" },
-  { to: "/about", label: "About" },
-  { to: "/help", label: "Help" },
+  { to: "hero", label: "Home", offset: -150 },
+  { to: "movie", label: "Movies", offset: -68 },
+  { to: "about", label: "About", offset: -150 },
+  { to: "/help", label: "Help", offset: -150 },
 ];

@@ -6,6 +6,7 @@ export default {
     extend: {
       fontFamily: {
         bebas: ['"Bebas Neue"', "cursive"],
+        lora: ["Lora", "serif"],
       },
     },
   },
