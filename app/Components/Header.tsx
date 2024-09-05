@@ -15,7 +15,7 @@ export const Header = () => {
   return (
     <>
       <div id="hero">
-        <nav className="flex z-10 w-full fixed font-lora justify-center gap-5 text-white py-3 px-5 bg-gray-900 md:px-9">
+        <nav className="flex z-10 w-full fixed font-lato justify-center gap-7 text-white py-3 px-5 bg-gray-900 md:px-9">
           {isHomePage ? (
             headlinks.map((link, index) => (
               <ScrollLink
@@ -26,7 +26,7 @@ export const Header = () => {
                 offset={link.offset}
                 duration={500}
                 key={index}
-                className="text-lg uppercase hover:underline cursor-pointer"
+                className="text-lg hover:underline cursor-pointer"
               >
                 {link.label}
               </ScrollLink>

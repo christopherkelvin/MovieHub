@@ -7,6 +7,8 @@ export default {
       fontFamily: {
         bebas: ['"Bebas Neue"', "cursive"],
         lora: ["Lora", "serif"],
+        sans: ["Lato", "sans-serif"], 
+        lato: ["Lato", "sans-serif"],
       },
     },
   },
