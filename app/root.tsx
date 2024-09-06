@@ -30,6 +30,7 @@ export const links: LinksFunction = () => [
 ];
 
 import { Header } from "./components/header";
+import { About } from "./components/about";
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
@@ -39,9 +40,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body className=" bg-[#121212] text-white">
+      <body className=" bg-gray-700 text-white">
         <Header />
         {children}
+        <About/>
         <ScrollRestoration />
         <Scripts />
       </body>
